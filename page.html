@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/thumbnaile.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <title>Youtube_Clone</title>
+    <!-- font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; -->
+
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <div class="left">
+            <!-- <p>left section</p> -->
+            <img class="menu" src="icons/hamburger-menu.svg" alt="Menu bar">
+            <img class="ytlogo" src="icons/youtube-logo.svg" alt="Youtube logo">
+        </div>
+        <div class="mid">
+            <input class="search_box" type="text" placeholder="Search">
+        <button class="search_button">
+            <img class="search_icon" src="icons/search.svg" alt="Search">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice_button">
+            <img class="voice_icon" src="icons/voice-search-icon.svg" alt="Voice">
+            <div class="tooltip">Search with your voice</div>
+        </button>
+        </div>
+        <div class="right">
+            <!-- <p>right section</p> -->
+
+            <div class="upload_icon_hover">
+                <img class="upload_icon" src="icons/upload.svg" alt="Upload">
+                <div class="tooltip">Create</div>
+
+            </div>
+            <div class="youtube_apps_hover">
+                <img class="apps_icon" src="icons/youtube-apps.svg" alt="apps">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="notification_hover">
+                <div class="notification_count_icon">
+                    <img class="notification_icon" src="icons/notifications.svg" alt="Notifications">
+                    <div class="notification_count">9+</div>
+                </div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="channel_hover">
+                <img class="channel_profile" src="icons/profile_pic.jpg" alt="Channel profile">
+                <div class="tooltip">Chandu Mj</div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="sidebar_box">
+            <img src="icons/home.svg" alt="Home">
+            <div>Home</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/explore.svg" alt="Explore">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/subscriptions.svg" alt="Subscriptions">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/originals.svg" alt="Originals">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/watch-later.svg" alt="Watch later">
+            <div>watch Later</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/youtube-music.svg" alt=" YouTube Music">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/library.svg" alt="Library">
+            <div>Library</div>
+        </div>
+        <div class="sidebar_box">
+            <img src="icons/shorts.svg" alt="Shorts">
+            <div>Shorts</div>
+        </div>
+    </div>
+    <div class="video_tot_grid">
+        <!-- first video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=o5Se8K-X0c8" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_01.webp" alt="DAILY STUDY ROUTINE OF A UPSC ASPIRANT">
+                    <div class="video_time">14:06</div>
+                    
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp1.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">DAILY STUDY ROUTINE OF A UPSC ASPIRANT AFTER a 9 - 5 JOB | Exploring LIFE</p>
+                        <p class="video_author">Marques Brownlee</p>
+                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    
+        <!-- second video -->
+
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=8dWL3wF_OMw" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_02.webp" alt="JavaScript Full Course for Beginners 🌐">
+                    <div class="video_time">8:00:00</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp2.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">TJavaScript Full Course for Beginners 🌐</p>
+                        <p class="video_author">Bro Code</p>
+                        <p class="video_stats">670,202 views &#183; 5 Mar 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- third video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=gZKNzn5Bf98" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_03.webp" alt="Cyber Security Full Course 2022 | Cyber Security Course Training For Beginners 2022 | Simplilearn">
+                    <div class="video_time">6:05:57</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp3.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Cyber Security Full Course 2022 | Cyber Security Course Training For Beginners 2022 | Simplilearn</p>
+                        <p class="video_author">Simplilearn</p>
+                        <p class="video_stats">14k views &#183; 25 Sept 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- fourth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=n4R2E7O-Ngo" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_04.webp" alt="TCSS Full Course for Beginners | Complete All-in-One Tutorial | 11 Hours">
+                    <div class="video_time">11:08:06</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp4.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">CSS Full Course for Beginners | Complete All-in-One Tutorial | 11 Hours</p>
+                        <p class="video_author">Dave Gray</p>
+                        <p class="video_stats">119,685 views &#183; 19 Jul 2022</p>
+                    </div>
+                </div>
+            </div>
+    
+        </a>
+        
+        <!-- fifth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=cFRRgwPIk2s" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_05.webp" alt="Binary Tree Traversals 🔥 | InOrder, PreOrder and PostOrder Traversals | DSA-One Course #56">
+                    <div class="video_time">12:57</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp5.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Binary Tree Traversals 🔥 | InOrder, PreOrder and PostOrder Traversals | DSA-One Course #56</p>
+                        <p class="video_author">Anuj Bhaiya</p>
+                        <p class="video_stats">57,118 views &#183; 26 Aug 2020</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- sixth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=QKVarScQigI" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_06.webp" alt="Part1 | Git Tutorial | Introduction | Version Control Systems">
+                    <div class="video_time">18:53</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp6.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Part1 | Git Tutorial | Introduction | Version Control Systems</p>
+                        <p class="video_author">SDET- QA Automation</p>
+                        <p class="video_stats">66,884 views &#183; 17 May 2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- seventh video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=Jwo5Ae7tH_I" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_07.webp" alt=" MS Excel - Vlookup in Excel Video Tutorials">
+                    <div class="video_time">6:37</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp7.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title"> MS Excel - Vlookup in Excel Video Tutorials</p>
+                        <p class="video_author">Tutorials Point (India) Ltd.</p>
+                        <p class="video_stats">7,489,028 views &#183; 15 Jan 2018</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- eighth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=DqaTKBU9TZk" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_08.webp" alt="BEST JavaScript Tutorial for Beginners for Getting a Job 2021 ">
+                    <div class="video_time">1:45:10
+                    </div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp8.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">BEST JavaScript Tutorial for Beginners for Getting a Job 2021 </p>
+                        <p class="video_author">SuperSimpleDev</p>
+                        <p class="video_stats">272,679 views &#183; 29 Apr 2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- ninth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=hw7r59ZsuLs" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_09.webp" alt="Interview Series - 69 | Soham Mukherjee | GeeksforGeeks Practice">
+                    <div class="video_time">1:42:00</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp9.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">TInterview Series - 69 | Soham Mukherjee | GeeksforGeeks Practice</p>
+                        <p class="video_author">GeeksforGeeks Practice</p>
+                        <p class="video_stats">546 views &#183; 25 Sep 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- tenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=zJSY8tbf_ys" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_10.webp" alt="Frontend Web Development Bootcamp Course">
+                    <div class="video_time">21:14:41</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp10.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Frontend Web Development Bootcamp Course</p>
+                        <p class="video_author">freeCodeCamp.org</p>
+                        <p class="video_stats">333,098 views &#183; 24 Aug 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- eleventh video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=C8UjlJZsHBw" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_11.webp" alt="Trapping Rainwater Problem | Leetcode">
+                    <div class="video_time">34:11</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp11.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Trapping Rainwater Problem | Leetcode</p>
+                        <p class="video_author">TECH DOSE</p>
+                        <p class="video_stats">65,421 views &#183; 22 Sept 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- twelve-th video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=4XI4Xe5mfR0" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_12.webp" alt="MULTI LEVEL & HIERARCHICAL INHERITANCE - JAVA PROGRAMMING">
+                    <div class="video_time">28:36</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp12.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">MULTI LEVEL & HIERARCHICAL INHERITANCE - JAVA PROGRAMMING</p>
+                        <p class="video_author">Sundeep Saradhi Kanthety</p>
+                        <p class="video_stats">101,385 views &#183; 3 Feb 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <!-- thirteenth -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=U3RkDLtS7uY" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_13.webp" alt="What is Distributed Caching? Explained with Redis!">
+                    <div class="video_time">14:03</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp13.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">What is Distributed Caching? Explained with Redis!</p>
+                        <p class="video_author">Gaurav Sen</p>
+                        <p class="video_stats">823,475 views &#183; 31 Mar 2019</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    
+        <!-- fourteenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=f-sj7I5oXEI" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_14.webp" alt="TL46. Check if a tree is a BST or BT | Validate a BST">
+                    <div class="video_time">10:12</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp14.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">L46. Check if a tree is a BST or BT | Validate a BST</p>
+                        <p class="video_author">take U forward</p>
+                        <p class="video_stats">48,820 views &#183; 26 Oct 2021</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- fifteenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=nF1fSKEiyA0" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_15.webp" alt="4-HOUR STUDY WITH ME">
+                    <div class="video_time">3:57:17</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp15.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">4-HOUR STUDY WITH ME</p>
+                        <p class="video_author">Abao in Tokyo</p>
+                        <p class="video_stats">5,039,935 views &#183; 25 Sep 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- sixteenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=ohJJntL3-mo" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_16.webp" alt="Shivam- Bahubali 2 song (SLOWED & REVERBED)">
+                    <div class="video_time">3:18</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp16.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">TShivam- Bahubali 2 song (SLOWED & REVERBED)</p>
+                        <p class="video_author">Music Beast</p>
+                        <p class="video_stats">104,495 views &#183; 17 Jun 2021</p>
+                    </div>
+                </div>
+            </div>    
+        </a>
+        
+        <!-- seventeenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=vBilxSlsytM" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_17.webp" alt=" I Quit My Old Planner — And you should, too">
+                    <div class="video_time">7:25</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp17.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title"> I Quit My Old Planner — And you should, too</p>
+                        <p class="video_author">Mariana's Corner</p>
+                        <p class="video_stats">14,382 views &#183; 24 Sept 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <!-- eighteenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=XtiE6OnDukY&list=RDXtiE6OnDukY&start_radio=1" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_18.webp" alt="Baahubali OST - Volume 03 - WKKB (End Titles BGM)">
+                    <div class="video_time">4:30</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp18.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Baahubali OST - Volume 03 - WKKB (End Titles BGM)</p>
+                        <p class="video_author">T-Series Telugu</p>
+                        <p class="video_stats">1,395,792 views &#183; 15 Jan 2018
+                        </p>
+                    </div>
+                </div>
+            </div>    
+        </a>
+        
+        <!-- nineteenth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=ZRdNNfZigKo" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_19.webp" alt="Sandhanam Theme (Background Score)">
+                    <div class="video_time">1:46</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp19.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Sandhanam Theme (Background Score)t</p>
+                        <p class="video_author">Anirudh Ravichander</p>
+                        <p class="video_stats">2,886,407 views &#183; 7 Jul 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    
+        <!-- twenty th video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=V1H9Qg1RkFQ" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_20.webp" alt="Rolex Entry Bgm | Rolex Entry Full Bgm | Lokiverse Bgm ">
+                    <div class="video_time">3:20</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp20.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Rolex Entry Bgm | Rolex Entry Full Bgm | Lokiverse Bgm </p>
+                        <p class="video_author">HI TECH BGM</p>
+                        <p class="video_stats">7,635,858 views &#183; 23 Jul 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- twenty first video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=dsCPsDf2m-Y" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_r01.webp" alt="Panjaa Title Video Song 720p">
+                    <div class="video_time">1:27</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp01.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Panjaa Title Video Song 720p</p>
+                        <p class="video_author">youthyuvanfans</p>
+                        <p class="video_stats">64,446 views &#183; 2 Feb 2012</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- twenty second video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=cQpe2HMkqVA" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_r02.webp" alt="Chalore Chalore Full HD Video Song">
+                    <div class="video_time">2:22</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp02.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Chalore Chalore Full HD Video Song</p>
+                        <p class="video_author">Geetha Arts Music</p>
+                        <p class="video_stats">2,816,617 views &#183; 22 Jul 2015</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- twenty third video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=pZ7GpVQIjeE" target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_r03.webp" alt="Dosti Full Video Song (Telugu)">
+                    <div class="video_time">5:16</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp03.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Dosti Full Video Song (Telugu)</p>
+                        <p class="video_author">Lahari Music Telugu | T-Series</p>
+                        <p class="video_stats">35,700,531 views &#183 25 Jun 2022</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    
+        <!-- twenty fourth video -->
+        <a class="video_linkers" href="https://www.youtube.com/watch?v=VwLmQ_ignqc"  target="_blank">
+            <div class="video">
+                <div class="thumbnail_row">
+                    <img class="video-thumbnail" src="thumbnails/thumbnail_r04.webp" alt="Deva Shree Ganesha-slowed">
+                    <div class="video_time">6:40</div>
+                </div>
+                <div class="video_inner_grid">
+                    <div class="ppic">
+                        <img class="inner_ppic" src="profile_pictures/pp04.jpg" alt="Profile pic">
+                    </div>
+                    <div class="video_details">
+                        <p class="video_title">Deva Shree Ganesha-slowed</p>
+                        <p class="video_author">Music Beast</p>
+                        <p class="video_stats">730,948 views &#183 6 Jan 2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    </div>
+</body>
+
+</html>

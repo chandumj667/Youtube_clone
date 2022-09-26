@@ -1,0 +1,15 @@
+p{
+    font-family: 'Roboto', sans-serif, Arial;
+    margin-top: 0;
+    margin-bottom:  0;
+}
+body{
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 110px;
+    background-color: rgb(234, 233, 233);
+}
+.video_linkers{
+    text-decoration: none;
+    color: black;
+}
